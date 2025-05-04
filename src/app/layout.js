@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased  bg-gradient-to-b from-white via-purple-500 to-purple-800 min-h-screen `}>
         {children}
-        <script src="https://cdn.lordicon.com/lordicon.js"></script>
+        <script src="https://cdn.lordicon.com/lordicon.js" defer></script>
       </body>
     </html>
   );
